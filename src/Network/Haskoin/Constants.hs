@@ -36,6 +36,7 @@ import           GHC.Generics                 (Generic)
 import           Network.Haskoin.Block.Common
 import           Paths_haskoin_core
 import           Text.Read
+import           Data.Monoid
 
 -- | Version of Haskoin Core package.
 versionString :: IsString a => a

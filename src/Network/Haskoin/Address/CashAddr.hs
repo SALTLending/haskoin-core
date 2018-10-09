@@ -35,6 +35,7 @@ import qualified Data.Text.Encoding         as E
 import           Data.Word
 import           Network.Haskoin.Constants
 import           Network.Haskoin.Util
+import Data.Monoid
 
 -- | 'CashAddr' prefix, usually shown before the colon in addresses, but sometimes
 -- omitted. It is used in the checksum calculation to avoid parsing an address
